@@ -39,4 +39,8 @@ build/
 *.log
 _bmad-output/
 _bmad/
+.agents/
+.agent/
+.github/agents/
+input-document/
 docker/postgres-init.sql
