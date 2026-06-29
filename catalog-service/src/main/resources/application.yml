@@ -1,0 +1,32 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: catalog-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/catalog_db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+
+gemini:
+  api:
+    key: AIzaSyBfFmzj237hc2kvoOdvBZVNPF5SGniUCL0
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent
