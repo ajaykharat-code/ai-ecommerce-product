@@ -43,4 +43,3 @@ _bmad/
 .agent/
 .github/agents/
 input-document/
-docker/postgres-init.sql
