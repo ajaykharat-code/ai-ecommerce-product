@@ -18,8 +18,8 @@ spring:
       client:
         registration:
           google:
-            client-id: ${GOOGLE_OAUTH_CLIENT_ID:your-client-id}
-            client-secret: ${GOOGLE_OAUTH_CLIENT_SECRET:your-client-secret}
+            client-id: 179404827647-b1d2lghkb6nlsse2lg68g3v69aq5e0q4.apps.googleusercontent.com
+            client-secret: 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
             scope: email, profile
 
 eureka:
