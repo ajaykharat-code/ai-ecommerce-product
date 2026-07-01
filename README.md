@@ -1,6 +1,6 @@
-# Scaler Ecommerce Project (Backend Specialization Capstone)
+# Ecommerce Project (Backend + AI Driven Capstone)
 
-This is a microservices-based ecommerce backend built as part of the Scaler Neovarsity Capstone Project. It uses Spring Boot 3.2.x and Spring Cloud 2023.0.x.
+This is a microservices-based ecommerce backend built as part of the Woolf Capstone Project. It uses Spring Boot 4.x and Spring Cloud 2023.0.x.
 
 ## Architecture & Technology Stack
 - **Architecture**: Microservices (Spring Cloud, API Gateway, Eureka Discovery Server)
